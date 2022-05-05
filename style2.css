@@ -1,0 +1,95 @@
+body{
+    background-image: url("homebackground.jpg");
+    width: 1000px;
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: auto;
+    }
+    /*.listen {
+        height:550px;
+        width:550px;
+        margin-left: 820px;
+        margin-top: 50px;
+        border-radius: 100%;
+        opacity: 1.0;
+        transform: rotate(340deg);
+       }*/
+       .container{
+        /*background-color: rgb(30, 33, 211);*/
+        color: rgb(245, 236, 236);
+       font-family: 'Varela Round', sans--serif;
+       margin-left: 70px;
+       /*background-color: rgb(216, 142, 142);*/
+       }
+       /*display:flex;
+       margin-top:100px;
+       justify-content: left;
+       align-items: center;
+       border-radius: 30px;
+       padding: 20px;
+       top: 0;
+       
+       flex-direction: row;
+       height: 3px;
+       width:700px;
+       }*/
+       .songItem{
+        height: 40px;
+        display: flex;
+        background-color: rgb(10, 0, 0);
+        width: 50%;
+        color: rgb(255, 249, 249);
+        font-size: large;
+        border-radius: 40px;
+        margin: 12px e;
+        margin-left: 50px;
+        margin-top: 29px;
+        justify-content:space-evenly;
+        align-items: center;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        
+        /*border-radius: 34px;*/
+       }
+       .songimg{
+           margin-bottom:27px;
+           margin-left: -50px;
+           margin-top: 29px;
+           border-radius: 100px;
+       }
+       .span{
+          text-align: center;
+          font-size: medium;
+       }
+       i{
+           cursor: pointer;
+       }
+       .songItemContainer{
+           margin-bottom: 34px;
+           padding-bottom: 500px;
+       }
+       .bottom{
+        /*position:relative;*/
+        height: 90px;
+        background-color: black;
+        /*bottom: 0;*/
+        width:1350px;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    #myProgressBar{
+        width:80vw;
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: 12px;
+    }
+    .icons i{
+        cursor: pointer;
+    }
+       

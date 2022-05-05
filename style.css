@@ -1,0 +1,119 @@
+/* font-family: 'Water Brush', cursive; */
+body{
+    background-image: url("homebackground.jpg");
+    width: 1000px;
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        box-sizing: border-box;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+    
+    .navbar {
+        width: 2000px;
+        height: 50px;
+        position:sticky;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+      }
+      /* Navigation links */
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 150px; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    font-family:cursive /* If you want the text to be centered */
+    
+  }
+  .navbar a:hover {
+    background-color: #04AA6D;
+  }
+/* Style the current/active link */
+.navbar a.active {
+    background-color: #04AA6D;
+  }  
+  .center {
+    height: 90px;
+    width: 110px;
+    margin-left: 1200px;
+    position: absolute;
+    top: 0px;
+    right: 6px;
+   }
+  .listen {
+    height:550px;
+    width:550px;
+    margin-left: 820px;
+    margin-top: 60px;
+    border-radius:100%;
+    opacity: 1.0;
+    transform: rotate(340deg);
+   }
+   div {
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -480px;
+    font-size:32px;
+    font-family: 'Water Brush', cursive;
+}
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:black;
+    border-radius: 12px;
+    color: #f01c40ea;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 10px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+  
+
